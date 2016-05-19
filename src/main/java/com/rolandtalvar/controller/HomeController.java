@@ -1,7 +1,6 @@
 package com.rolandtalvar.controller;
 
 
-import com.rolandtalvar.SmartphonesApplication;
 import com.rolandtalvar.model.Smartphone;
 import com.rolandtalvar.model.SmartphoneRepository;
 import org.slf4j.Logger;
