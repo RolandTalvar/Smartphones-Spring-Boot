@@ -46,8 +46,8 @@
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
             if (xhttp.readyState == 4 && xhttp.status == 200) {
-//                var smartphone = JSON.parse(xhttp.responseText);
-                showDescription(xhttp.responseText);
+                var smartphone = JSON.parse(xhttp.responseText);
+                showDescription(smartphone.description);
             } else {
                 showDescription("Sorry! Unable to receive smartphone description.");
             }
